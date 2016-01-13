@@ -1,0 +1,40 @@
+====== Algorithm Template =====
+
+This simple algorithm implementation template aims at simplifying cross dissemination of developments. \\
+Not a recommendation nor a constraint, it may be taken as a suggestion which helps spreading of ideas and ease exchange of GDR members practice.
+
+\\
+\\
+
+Basics:
+  * The template is provided for many languages, so I/O objects have to remain in common types (numeric arrays/matrices, strings). 
+  * Four methods/functions are required:
+    * **init**, which allows to initialize the environment, parse options, load dependencies
+    * **initDesign**, which returns the first design of experiments
+    * **nextDesign**, which returns the new experiments to perform
+    * **analyseDesign**, which returns a textual/html analysis, possibly including images to display the results
+  * Alongside with these requirements, many functions/methods may be appended
+  * Extended information may be provided in first commented lines (information, authors, algorithm options, dependencies, ...)
+
+===== Empty template files =====
+
+  * ++ R | {{template.R}}
+{{page>template.R.txt}}
+++
+  * ++ Matlab |
+{{page>template.m.txt}}
+++
+  * ++ Python |
+{{page>template.py.txt}}
+++
+  * ++ Java |
+{{page>template.java.txt}}
+++
+  * ++ C |
+{{page>template.c.txt}}
+++
+  * ++ Fortran |
+{{page>template.f.txt}}
+++
+
+
