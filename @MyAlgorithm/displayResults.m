@@ -1,0 +1,6 @@
+% @param algorithm object handling options, status, ...
+% @param Y matrix of current results
+% @return HTML string of analysis
+function [html] = displayResults(algorithm,X,Y)
+    ...
+end

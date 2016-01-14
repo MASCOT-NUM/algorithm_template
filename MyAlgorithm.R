@@ -4,6 +4,7 @@
 #options=...
 
 #' constructor and initializer of algorithm
+#' @param options algorithm options
 #' @return algorithm object : environment options, status
 MyAlgorithm <- function(options) {
     ...

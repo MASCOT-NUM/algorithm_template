@@ -1,0 +1,39 @@
+//help=...
+//type=...
+//output=...
+//options=...
+
+public class MyAlgorithm {
+
+// constructor and initializer of session
+// @param options algorithm options
+// @return algorithm object : environment options, status
+public MyAlgorithm(Map options) {
+    ...
+}
+
+// first design building.
+// @param algorithm object handling options, status, ...
+// @param d the number of variables all set in [0,1]
+public static double[][] getInitialDesign(MyAlgorithm algorithm, int d) {
+    ...
+}
+
+// iterated design building.
+// @param algorithm object handling options, status, ...
+// @param X matrix of current doe variables (in [0,1])
+// @param Y matrix of current results
+// @return matrix of next doe step
+public static double[][] getNextDesign(MyAlgorithm algorithm, double[][] X,double[][] Y) {
+    ...
+}
+
+// final analysis. All variables are set in [0,1].
+// @param algorithm object handling options, status, ...
+// @return HTML string of analysis
+public static String displayResults(MyAlgorithm algorithm, double[][] X,double[][] Y) {
+    ...
+}
+
+...
+}
