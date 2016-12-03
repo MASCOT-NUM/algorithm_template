@@ -29,4 +29,4 @@ These implementations are designed to follow such a workflow:
 12. displayResults(algorithm,Xn,Yn) to return a final analysis of results, as an HTML string (possibly including base64 files)
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-109580-20/MASCOTNUM/template)
+![Analytics](https://ga-beacon.appspot.com/UA-109580-20/MASCOT-NUM/template)
